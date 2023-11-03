@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>TP3</name>
+=======
+<<<<<<< HEAD
+	<name>TP2</name>
+=======
+	<name>TP1</name>
+>>>>>>> 34ee1f744f7ea00777f52a3ce452636666c9b891
+>>>>>>> 6b88174cbdac886f8e7fb1a460c172d28db9705e
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6b88174cbdac886f8e7fb1a460c172d28db9705e
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
@@ -13,5 +25,12 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+<<<<<<< HEAD
+=======
+=======
+	</buildSpec>
+	<natures>
+>>>>>>> 34ee1f744f7ea00777f52a3ce452636666c9b891
+>>>>>>> 6b88174cbdac886f8e7fb1a460c172d28db9705e
 	</natures>
 </projectDescription>
