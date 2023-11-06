@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<cinéma>
+	
+		<Film id= 'lb78' type= 'comédie'>
+			<titre>Les Bronzes</titre>
+			<année>1978</année>
+			<réalisateur>Patrice Leonte</réalisateur>
+			<role>
+				<nom>Popeye</nom>
+				<acteur>Michel Blanc</acteur>
+			</role>
+		</Film>
+		
+		<Film id= 'gf94' type= 'comédie'>
+			<titre>Grosse fatigue</titre>
+			<année>1994</année>
+			<réalisateur>Michel Blanc</réalisateur>
+			<role>
+				<nom>Patrice Olivier</nom>
+				<acteur>Michel Blanc</acteur>
+			</role>
+			<role><nom>Carole Bouquet</nom><acteur>Carole Bouquet</acteur></role>
+		</Film>
+		
+		<producteur>
+			<nom>Daniel Toscan du Plantier</nom>
+			<Film ref= 'gf94'></Film>
+		</producteur>
+		
+		<producteur>
+			<nom>Yves Rousset-Rouard</nom>
+			<Film ref= 'lb78'></Film>
+		</producteur>
+		
+     </cinéma>

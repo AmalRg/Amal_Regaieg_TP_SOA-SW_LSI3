@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>TP2</name>
+=======
+	<name>TP1</name>
+>>>>>>> 79457da4babbc649f9baa92325c12ff5e2588969
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
+<<<<<<< HEAD
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
@@ -13,5 +18,9 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+=======
+	</buildSpec>
+	<natures>
+>>>>>>> 79457da4babbc649f9baa92325c12ff5e2588969
 	</natures>
 </projectDescription>
