@@ -4,7 +4,11 @@
 	<name>TP2</name>
 =======
 	<name>TP1</name>
+<<<<<<< HEAD
 >>>>>>> 34ee1f744f7ea00777f52a3ce452636666c9b891
+=======
+>>>>>>> 79457da4babbc649f9baa92325c12ff5e2588969
+>>>>>>> TP2
 	<comment></comment>
 	<projects>
 	</projects>
@@ -21,6 +25,10 @@
 =======
 	</buildSpec>
 	<natures>
+<<<<<<< HEAD
 >>>>>>> 34ee1f744f7ea00777f52a3ce452636666c9b891
+=======
+>>>>>>> 79457da4babbc649f9baa92325c12ff5e2588969
+>>>>>>> TP2
 	</natures>
 </projectDescription>
