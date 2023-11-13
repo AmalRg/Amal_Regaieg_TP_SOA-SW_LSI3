@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -36,3 +37,11 @@ build/
 
 ### Mac OS ###
 .DS_Store
+=======
+/bin/
+<<<<<<< HEAD
+=======
+/Film.xml
+/NewXMLSchema.xsd
+>>>>>>> 6b88174cbdac886f8e7fb1a460c172d28db9705e
+>>>>>>> b083865afd096980810580212abbe63e3ce6067d

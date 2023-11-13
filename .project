@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+<<<<<<< HEAD
+	<name>TP3</name>
+=======
+<<<<<<< HEAD
+	<name>TP2</name>
+=======
+	<name>TP1</name>
+<<<<<<< HEAD
+>>>>>>> 34ee1f744f7ea00777f52a3ce452636666c9b891
+<<<<<<< HEAD
+>>>>>>> 6b88174cbdac886f8e7fb1a460c172d28db9705e
+=======
+=======
+>>>>>>> 79457da4babbc649f9baa92325c12ff5e2588969
+>>>>>>> TP2
+>>>>>>> 7f2857555f090e0ad3a47bde161a678492443c89
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6b88174cbdac886f8e7fb1a460c172d28db9705e
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+<<<<<<< HEAD
+=======
+=======
+	</buildSpec>
+	<natures>
+<<<<<<< HEAD
+>>>>>>> 34ee1f744f7ea00777f52a3ce452636666c9b891
+<<<<<<< HEAD
+>>>>>>> 6b88174cbdac886f8e7fb1a460c172d28db9705e
+=======
+=======
+>>>>>>> 79457da4babbc649f9baa92325c12ff5e2588969
+>>>>>>> TP2
+>>>>>>> 7f2857555f090e0ad3a47bde161a678492443c89
+	</natures>
+</projectDescription>
