@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -78,4 +79,48 @@
         </plugins>
     </build>
 
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+<<<<<<< HEAD
+    <artifactId>TP5_3_ClientWS</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+=======
+    <artifactId>TP5_1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+>>>>>>> b065e67bf1cd955a2db854e726ac711e4174ce5c
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- ajouter la dépendance "JAX WS RI" version 4.0.0 -->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.sun.xml.ws/jaxws-ri -->
+        <dependency>
+            <groupId>com.sun.xml.ws</groupId>
+            <artifactId>jaxws-ri</artifactId>
+<<<<<<< HEAD
+            <version>4.0.0</version>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+
+=======
+            <version>4.0.2</version>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+>>>>>>> b065e67bf1cd955a2db854e726ac711e4174ce5c
+>>>>>>> eacc75654b22475beee7d394a6a8306c66f5b700
 </project>
