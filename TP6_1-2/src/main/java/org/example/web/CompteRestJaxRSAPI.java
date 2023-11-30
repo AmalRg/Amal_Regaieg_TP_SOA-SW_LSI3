@@ -7,7 +7,6 @@ import org.example.repositories.CompteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Component
@@ -18,7 +17,7 @@ public class CompteRestJaxRSAPI {
     private CompteRepository compteRepository;
     @Path("/comptes")
     @GET
-    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     @Transactional
     public List<Compte> compteList() {
         return compteRepository.findAll();
@@ -27,21 +26,21 @@ public class CompteRestJaxRSAPI {
     @Path("/comptes/{id}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Compte getOne(@PathVariable("id") Long id) {
-        return compteRepository.findById(id).orElse(null);
+    public Compte getOne(@PathParam("id") Long id) {
+        return compteRepository.findById(id).get();
     }
 
     @Path("/comptes")
     @POST
     @Produces({MediaType.APPLICATION_JSON})
-    public void save(@RequestBody Compte compte) {
+    public void save(Compte compte) {
         compteRepository.save(compte);
     }
 
     @Path("/comptes/{id}")
     @PUT
     @Produces({MediaType.APPLICATION_JSON})
-    public Compte update(Compte compte, @PathVariable("id") Long id) {
+    public Compte update(Compte compte, @PathParam("id") Long id) {
         compte.setId(id);
         return compteRepository.save(compte);
     }
@@ -49,7 +48,7 @@ public class CompteRestJaxRSAPI {
     @Path("/comptes/{id}")
     @DELETE
     @Produces({MediaType.APPLICATION_JSON})
-    public void delete(@PathVariable("id") Long id) {
+    public void delete(@PathParam("id") Long id) {
         compteRepository.deleteById(id);
     }
 
